@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Page de Contact</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=*description* content="ccontrole git">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <img src="../image/Capture d'écran 2025-01-31 095944.png" alt="aveugle et SEO">
+            <a href="Yves-contact.html">Mon site web</a>
+        </h1>
+
+        <form action="recherche.php" method="get">
+            <input type="search" name="recherche" id="recherche" maxlength="200" placeholder="recherche..."> 
+            <input type="image" src="../image/search.svg" alt="aveugle SEO" width="10">
+        </form>
+    </header>
+    <nav>
+        <a href="../html/Yves-contact.html">Contact</a>
+        <a href="../html/index.html">Accueil</a>
+        <a href="../html/Yves-programme.html">Programme</a>
+    </nav>
+    <main>
+        <h3>Votre formulaire de contact</h3>
+        <form action="contact.php" method="post" enctype="multipart/form-data">
+            <fieldset>
+
+                <label for="sex">Civilité : </label>
+                <br>
+                <input type="radio" name="sex" id="mrs." value="1">
+                <label for="mrs." >madame</label>
+
+                <input type="radio" name="sex" id="mr." value="2">
+                <label for="mr.">monsieur</label>
+
+                <input type="radio" name="sex" id="other" value="3">
+                <label for="other">autres</label>
+
+                <br>
+
+                <label for="lastname">Nom : </label>
+                <input type="text" name="lastname" id="lastname" maxlength="200">
+
+                <br>
+
+                <label for="firstname">Prénom : </label>
+                <input type="text" name="firstname" id="firstname" maxlength="200">
+
+                <br>
+
+                <label for="email">Email : </label>
+                <input type="email" name="email" id="email" maxlength="200">
+
+                <input type="submit" name="confirmation" id="confirmation" placeholder="confirmation">
+
+                <br>
+
+                <label for="">avis : </label>
+                <br>
+                <textarea name="texte" id="texte" placeholder="texte libre"></textarea>
+                
+                <input type="submit" name="send" id="send" placeholder="envoyer">
+
+            </fieldset>
+            
+        </form>
+    </main>
+</body>
+</html>
