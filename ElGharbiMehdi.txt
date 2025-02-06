@@ -1,0 +1,8 @@
+                                           Fichier de commandes eval Github partie CSS
+1.	J’ai clone le dépôt créé sur git sur mon pc
+2.	J’ai ajouté mon fichier CSS avec la commande : git add eval.css
+3.	Par la suite j’ai vérifié un changement éventuel en tapant git status
+4.	J’ai fait un commit pour dire que j’ai ajoute du CSS avec la commande : git commit -m < j’ai ajoute eval.css >
+5.	Et pour finir je l’ai envoyé sur github avec git push -u origin main
+6.	Maintenant mon css est libre d’utilisation pour mes collègues 
+

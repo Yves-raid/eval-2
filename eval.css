@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    min-width: 4em;
+    font-style: oblique;
+}
+
+body{
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 img{
+    width: 10%;
+}
+h1 a{
+    text-decoration: none;
+}
+header{
+    background-color: orangered;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+nav a{
+    text-decoration: none;
+    color: green;
+}
+nav{
+    background-color: orangered;
+    width: 100%;
+    font-size: larger;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4em ;
+    
+}
+
+article img,section img{
+    width: 100px;
+    margin: 10px;
+}
+article p,section p{
+    width: 100px;
+    margin: 10px;
+    transition: 1s;
+    border-radius: 4%;
+}
+main article{
+    justify-items: center;
+    align-items: center;
+    width: 33.33%;
+}
+main section{
+    background-color: aqua;
+    justify-items: center;
+    align-items: center;
+    width: 33.33%;
+}
+main p:hover{
+    box-shadow: 0 0 5px;
+    transform: scale(1);
+}
+main{
+    background-color: yellow;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10%;
+}
+
+#banniere{
+    width: 100%;
+    height: 100px;
+}
+aside{
+    background-color: green;
+    width: 80%;
+    margin: 10%;
+    height: 100px;
+}
+
+div fieldset{
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+}
+
+div{
+    background-color: palevioletred;
+    height: 400px;
+    width: 100%;
+    justify-items: center;
+    padding: 4em;
+}
+
+footer p{
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+footer{
+    background-color: blue;
+    width: 100%;
+    padding: 2%;
+    justify-items: center;
+}
