@@ -11,9 +11,17 @@ cd dans le dossier
 ls 
 nano README.md
 ajouter des modifs 
-git add nomdossier
+
+git add index.html
 git commit -m "message"
 git status
-git push origin origin main
+git push origin main 
 
- git pull origin main 
+pareil avec la page programme 
+
+git add programme.html
+git commit -m "message"
+git status
+git push origin main 
+
+pour recevoir les modifs git pull origin main 
