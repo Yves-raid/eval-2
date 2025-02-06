@@ -1,0 +1,26 @@
+@media screen and (max-width=600px){
+    main,
+    aside,
+    footer{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+
+
+
+
+
+main article img,main section img{
+    width: 100%;
+}
+
+main aside{
+    height: 20vh;
+    margin: 4vh 0;
+    overflow: hidden;
+}
+main aside img{
+    width: 100%;
+}
