@@ -1,0 +1,5 @@
+Pour pouvoir avoir l'accés au dépôt distant, nous avons fait : git clone https://github.com/Yves-raid/eval-2.git
+ensuite pour ajouter les fichiers du site : git add <nom_de_fichier>
+puis il faut créer un commit pour envoyer le message au dépôt distant : git commit -m "message"
+et nous devons faire un git push pour l'envoyer au main: git push -u origin main
+Pour la suite nous n'avons pas pu faire de branche et de structurer notre travail par problème de connexion et de vm.
