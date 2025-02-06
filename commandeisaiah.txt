@@ -1,0 +1,27 @@
+creation de l'index et de la page programme en html
+
+apres avoir cree le repository sur github et ajouter les collaborateurs
+cd
+cd Documents 
+mkdir evalGit
+cd evalGit
+git init 
+git clone + lien 
+cd dans le dossier
+ls 
+nano README.md
+ajouter des modifs 
+
+git add index.html
+git commit -m "message"
+git status
+git push origin main 
+
+pareil avec la page programme 
+
+git add programme.html
+git commit -m "message"
+git status
+git push origin main 
+
+pour recevoir les modifs git pull origin main 
