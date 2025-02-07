@@ -3,3 +3,7 @@ ensuite pour ajouter les fichiers du site : git add <nom_de_fichier>
 puis il faut créer un commit pour envoyer le message au dépôt distant : git commit -m "message"
 et nous devons faire un git push pour l'envoyer au main: git push -u origin main
 Pour la suite nous n'avons pas pu faire de branche et de structurer notre travail par problème de connexion et de vm.
+Pour finir nous avons fait plusieurs branches pour montrer les différents étapes de projets comme les branches tests, initial, corrections et final
+: git checkout -b <nom_de_la_branche>.
+puis nous avons fait un git push origin <nom de la branche> pour toutes les branches pour les envoyer au dépôt distant.
+Enfin nous avons fusionner la branche main avec la branche final.
